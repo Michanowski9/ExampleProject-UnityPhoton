@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 114393011662163660}
   - component: {fileID: 114064573424519752}
   - component: {fileID: 114919238870442178}
+  - component: {fileID: 114557204697309238}
   m_Layer: 5
   m_Name: PlayerListing
   m_TagString: Untagged
@@ -41,7 +42,7 @@ GameObject:
   - component: {fileID: 222571911979690714}
   - component: {fileID: 114360990264785478}
   m_Layer: 5
-  m_Name: RoomNameText
+  m_Name: PlayerNameText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -126,6 +127,18 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114557204697309238
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1385704340962658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00fc3f2cec3c06a42bb255c8d3877405, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerName: {fileID: 114360990264785478}
 --- !u!114 &114919238870442178
 MonoBehaviour:
   m_ObjectHideFlags: 1
